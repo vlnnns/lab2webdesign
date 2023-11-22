@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Timer Extension",
+  "version": "1.0",
+  "description": "Displays a timer in the corner of the page.",
+  "permissions": [
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icons/eyes.png",
+      "48": "icons/eyes-2.png",
+      "128": "icons/eyes-3.png"
+    }
+  }
+}
